@@ -1,0 +1,24 @@
+#box {
+    background-color: bisque;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+
+body {
+    background-color: aqua;
+}
+
+#box.show {
+    visibility: visible;
+}
+
+.material-symbols-outlined {
+	float:right;
+    padding: 10px;
+}
+
+.material-symbols-outlined:hover {
+    background-color: red;
+    cursor: pointer;
+}
